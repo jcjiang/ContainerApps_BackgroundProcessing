@@ -18,7 +18,7 @@
     {
         "name": "queuereader",
         "type": "Microsoft.App/containerApps",
-        "apiVersion": "2022-03-01",
+        "apiVersion": "2024-02-02-preview",
         "kind": "containerapp",
         "location": "[parameters('location')]",
         "properties": {
