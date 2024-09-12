@@ -20,10 +20,6 @@ The majority of this tutorial is in the form of CLI commands, which can be found
 
 This repository contains a file named `queue.json`, which contains the configuration code for deploying this project to Azure with support for managed identity.
 
-## Conclusion
-
-You have successfully built and deployed a background processing application using Azure Container Apps. You can now scale your application and manage background tasks efficiently.
-
 ## Common Errors
 
 - If your subscription cannot be found when creating a new storage account using the command `$StorageAcct = New-AzStorageAccount @StorageAcctArgs`, the `Microsoft.Storage` resource provider might not have been registered for your subscription. To do so, follow the instructions [here](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types).
@@ -31,9 +27,8 @@ You have successfully built and deployed a background processing application usi
 ## Resources
 
 - [Azure Container Apps Documentation](https://docs.microsoft.com/en-us/azure/container-apps/)
-- [Docker Documentation](https://docs.docker.com/)
 - [Azure Storage Queues Documentation](https://docs.microsoft.com/en-us/azure/storage/queues/)
 
 ## Feedback
 
-If you have any feedback or questions, please reach out via [GitHub Issues](https://github.com/your-repo/issues).
+If you have any feedback or questions, please check out our [GitHub Issues](https://github.com/microsoft/azure-container-apps/issues).
